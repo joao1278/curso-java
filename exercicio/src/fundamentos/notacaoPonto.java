@@ -6,11 +6,12 @@ public class notacaoPonto {
 		// double é um tipo primitivo
 		double a = 2.3;
 		System.out.println(a);
-		String s = "bom dia X"; // String sempre inicia com letras maiusculas.
-		s = s.replace("X","senhora");
+		String s = "bom dia X"; // tipo String sempre inicia com letras maiusculas.
+		s = s.replace("X","senhora maria");// essa função substitui o que esta primeiro
+		// pelo segundo.  apos a virgula
 		// essa funcao substitue algo por outra coisa
 		s = s.toUpperCase();// ele faz as letras ficarem maiusculas / s.toU + ctrl espaco
-		s = s.concat("!!!");
+		s = s.concat("!!!" + a);
 		// essa foncao pode concatenar 
 		// assim como o '+' vc tbem pode juntar com essa funcao
 				System.out.println(s);

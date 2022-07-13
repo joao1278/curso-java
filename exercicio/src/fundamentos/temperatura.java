@@ -12,9 +12,13 @@ public class temperatura {
 		// sempre coloque ele
 		//para o resultado esta correto
 		double ºc = (ºf - ajuste) * fator;
+		// colocando o parentese
+		// o java entende que aquela expressao
+		// sera feita primeiro
 		System.out.println("temperatura = " + ºc);
 		
-		ºf = 150;
+	
+		ºf = 0;
 		// ao repetir a variavel
 		// nao precisa colocar o tipo da variavel 
 		// ex: double ou int
